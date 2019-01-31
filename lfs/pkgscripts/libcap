@@ -6,7 +6,7 @@ set -e
 . /var/lib/pkg/functions
 
 name=$(basename $0)
-version=2.25
+version=2.26
 url=https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-$version.tar.xz
 
 fetch $url
