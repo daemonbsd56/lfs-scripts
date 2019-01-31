@@ -6,7 +6,7 @@ set -e
 . /var/lib/pkg/functions
 
 name=$(basename $0)
-version=3.2.5
+version=3.2.7
 url=https://dev.gentoo.org/~blueness/eudev/eudev-$version.tar.gz
 
 fetch $url
